@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-import 'Models/nba_model.dart';
+import '../Models/nba_model.dart';
 
 class NBAHome extends StatefulWidget {
   const NBAHome({super.key});
