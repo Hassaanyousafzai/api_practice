@@ -1,4 +1,4 @@
-import 'package:api_practice/screens/complex_json_practice.dart';
+import 'package:api_practice/screens/example4.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
-      home: const MyUserApp(),
+      home: const Photos(),
     );
   }
 }
